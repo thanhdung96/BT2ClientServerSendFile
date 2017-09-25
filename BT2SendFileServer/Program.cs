@@ -1,13 +1,13 @@
-﻿using System;
-using System.Net;
-using System.Net.Sockets;
-
-namespace BT2SendFileServer
+﻿namespace BT2SendFileServer
 {
 	class Program
 	{
+		private static Server server;
+
 		static void Main(string[] args)
 		{
+			server = new Server();
+			server.startListen();
 		}
 	}
 }

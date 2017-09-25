@@ -1,0 +1,70 @@
+﻿Internetworking Models
+When networks first came into being, computers could typically communicate
+only with computers from the same manufacturer. For example,
+companies ran either a complete DECnet solution or an IBM solution—not
+both together. In the late 1970s, the OSI (Open Systems Interconnection)
+model was created by the International Organization for Standardization
+(ISO) to break this barrier. The OSI model was meant to help vendors create
+interoperable network devices. Like world peace, it’ll probably never happen
+completely, but it’s still a great goal.
+The OSI model is the primary architectural model for networks. It
+describes how data and network information are communicated from applications
+on one computer, through the network media, to an application
+on another computer. The OSI reference model breaks this approach into
+layers.
+Cisco has also created a three-layer model that is used to help design,
+implement, and maintain any size network. By understanding the three-layer
+model, you will gain an understanding of how Cisco views internetworking.
+Also, by having a fundamental understanding of the devices used at each
+layer of the model, you can effectively design and purchase the correct Cisco
+equipment to meet your business needs. This chapter will cover both the OSI
+model and the Cisco three-layer hierarchical model.
+The Layered Approach
+A reference model is a conceptual blueprint of how communications should
+take place. It addresses all the processes required for effective communication
+and divides these processes into logical groupings called layers. When a
+communication system is designed in this manner, it’s known as layered
+architecture.
+Think of it like this: You and some friends want to start a company. One
+of the first things you’d do is sit down and think through what must be done,
+who will do them, what order they will be done in, and how they relate to
+each other. Ultimately, you might group these tasks into departments. Let’s
+say you decide to have an order-taking department, an inventory department,
+and a shipping department. Each of your departments has its own
+unique tasks, keeping its staff members busy and requiring them to focus on
+only their own duties. 
+4 Chapter 1  Internetworking
+In this scenario, departments are a metaphor for the layers in a communication
+system. For things to run smoothly, the staff of each department will
+have to both trust and rely heavily on the others to do their jobs and competently
+handle their unique responsibilities. In your planning sessions, you
+would probably take notes, recording the entire process to facilitate later discussions
+about standards of operation that will serve as your business blueprint,
+or reference model.
+Once your business is launched, your department heads, armed with the
+part of the blueprint relating to their department, will need to develop practical
+methods to implement their assigned tasks. These practical methods, or
+protocols, will need to be compiled into a standard operating procedures
+manual and followed closely. Each of the various procedures in your manual
+will have been included for different reasons and have varying degrees of
+importance and implementation. If you form a partnership or acquire
+another company, it will be imperative for its business protocols—its business
+blueprint—to match, or be compatible with, yours.
+Similarly, software developers can use a reference model to understand
+computer communication processes and to see what types of functions need
+to be accomplished on any one layer. If they are developing a protocol for a
+certain layer, all they need to concern themselves with is the specific layer’s
+functions, not those of any other layer. Another layer and protocol will handle
+the other functions. The technical term for this idea is binding. The communication
+processes that are related to each other are bound, or grouped
+together, at a particular layer.Advantages of Reference Models
+The OSI model, like the Cisco three-layer model you will learn about later,
+is hierarchical, and the same benefits and advantages can apply to any layered
+model. The primary purpose of all models, and especially the OSI
+model, is to allow different vendors to interoperate. The benefits of the OSI
+and Cisco models include, but are not limited to, the following:
+ Dividing the complex network operation into more manageable layers
+ Changing one layer without having to change all layers. This allows
+application developers to specialize in design and development.
+ Defining the standard interface for the “plug-and-play” multivendor
+integration
